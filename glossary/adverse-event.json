@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "name": "adverse event",
+    "definition": "Any health problem that happens during the study one.",
+    "sentence": "The study team needs to know about any adverse event that happens during the study.",
+    "more_info": "Every health problem has to be tracked even if it is not related to the study treatment.",
+    "example": "An example of an adverse event is catching a cold during the study.",
+    "opposite_words": "",
+    "related_words": "adverse reaction, side effect",
+    "image": {
+      "small": "assets/images/adverse-event.png",
+      "large": "assets/images/adverse-event.png"
+    }
+}

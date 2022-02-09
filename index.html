@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+
+	<title>Open Glossary - Clinical Research</title>
+
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+	<link href="assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<header class="compact">
+		<h1><a href="#">Open Glossary - Clinical Research</a></h1>
+	</header>
+
+	<div class="main-content">
+
+		<div class="all-terms page">
+			
+			<ul class="terms-list">
+				<script id="terms-template" type="x-handlebars-template">​
+					{{#each this}}
+						<li data-index="{{id}}">
+							<a href="#"> {{name}}</a>: {{definition}} 
+							<div class="highlight"></div>
+						</li>
+					{{/each}}
+				</script>
+			</ul>
+
+		</div>
+
+
+		<div class="single-term page">
+
+			<div class="overlay"></div>
+
+			<div class="preview-large">
+				<h3>Single term view</h3>
+				<table>
+					<tr>
+						<td>
+							<h4>DEFINITION</h4>
+				            <p class="definition"></p>
+						</td>
+						<td rowspan="3">
+							<img src=""/>
+				            <p class="example"></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>USE IN A SENTENCE</h4>
+				            <p class="sentence"></p>
+						</td>
+					</tr>
+						<td>
+							<h4>MORE INFO</h4>
+				            <p class="more_info"></p>
+						</td>
+						</td>
+					</tr>
+					<tr>
+					<tr>
+						<td>
+							<h4>RELATED WORDS</h4>
+				            <p class="related_words"></p>
+						<td>
+							<h4>OPPOSITE WORDS</h4>
+				            <p class="opposite_words"></p>
+						</td>
+					</tr>
+
+				</table>
+				<!--<img src=""/>-->
+
+				<span class="close">×</span>
+			</div>
+
+		</div>
+
+		<div class="error page">
+			<h3>Sorry, something went wrong :(</h3>
+		</div>
+
+	</div>
+
+	<div class="footer">
+		<h2>
+			<a href="https://mrctcenter.org/clinical-research-glossary/glossary-words/" target="_blank">MRCT Glossary</a>
+		    <a href="https://github.com/bgfast/gloss/tree/main/glossary" target="_blank">Github Open Glossary Terms</a>
+		    <a href="glossary.json" download target="_blank">Download full glossary</a>
+	    </h2>
+	</div>
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/handlebars.min.js"></script>
+	<script src="assets/js/script.js"></script>
+
+
+</body>
+</html>
