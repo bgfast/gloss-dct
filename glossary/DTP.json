@@ -1,0 +1,14 @@
+{
+    "id": 3,
+    "name": "Direct to Patient (DTP)",
+    "definition": "Direct shipment of clinical supplies and investigational medicinal products (IMP) to the patient’s residence.",
+    "sentence": "",
+    "more_info": "",
+    "example": "",
+    "opposite_words": "",
+    "related_words": "",
+    "image": {
+      "small": "assets/images/dtp.png",
+      "large": "assets/images/dtp.png"
+    }
+}
