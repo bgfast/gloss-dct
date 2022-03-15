@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "name": "caregiver",
+    "definition": "A paid companion or unpaid member of a person’s social network who helps with activities of daily living",
+    "sentence": "",
+    "more_info": "",
+    "example": "",
+    "opposite_words": "",
+    "related_words": "",
+    "image": {
+      "small": "assets/images/caregiver.png",
+      "large": "assets/images/caregiver.png"
+    }
+}
