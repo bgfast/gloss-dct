@@ -1,0 +1,14 @@
+{
+    "id": 2,
+    "name": "data management",
+    "definition": "An administrative process that includes acquiring, validating, storing, protecting and processing required data to ensure the reliability, quality, and timeliness of the data.",
+    "sentence": "",
+    "more_info": "",
+    "example": "",
+    "opposite_words": "",
+    "related_words": "",
+    "image": {
+      "small": "assets/images/data-management.png",
+      "large": "assets/images/data-management.png"
+    }
+}
